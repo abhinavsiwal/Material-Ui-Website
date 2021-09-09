@@ -4,6 +4,7 @@ import Header from "./components/UI/Header";
 import theme from './components/UI/Theme'
 import {ThemeProvider} from '@material-ui/styles';
 import Footer from "./components/UI/Footer";
+import LandingPage from './components/Home/LandingPage';
 
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
       <Header value={value} setValue={setValue} selectedIndex={selectedIndex} setSelectedIndex={setSelectedIndex} />
       <Switch>
         <Route path="/" exact> 
-          <div style={{height:"81.3vh"}}>Home</div>
+          <div style={{height:"81.3vh"}}><LandingPage /></div>
         </Route>
         <Route path="/services"> 
           <div>Services</div>

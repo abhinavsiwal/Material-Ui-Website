@@ -15,7 +15,7 @@ function App() {
       <Header value={value} setValue={setValue} selectedIndex={selectedIndex} setSelectedIndex={setSelectedIndex} />
       <Switch>
         <Route path="/" exact> 
-          <div style={{height:"81.3vh"}}><LandingPage /></div>
+          <div><LandingPage /></div>
         </Route>
         <Route path="/services"> 
           <div>Services</div>

@@ -112,7 +112,7 @@ const Footer = (props) => {
               }}
               to="/mobile-apps"
             >
-              Mobile App Development
+             iOS/Mobile App Development
             </Grid>
             <Grid
               item

@@ -14,8 +14,8 @@ function App() {
     <ThemeProvider theme={theme}>
       <Header value={value} setValue={setValue} selectedIndex={selectedIndex} setSelectedIndex={setSelectedIndex} />
       <Switch>
-        <Route path="/" exact> 
-          <div><LandingPage /></div>
+        <Route path="/" exact > 
+          <div><LandingPage setValue={setValue} setSelectedIndex={setSelectedIndex}/></div>
         </Route>
         <Route path="/services"> 
           <div>Services</div>

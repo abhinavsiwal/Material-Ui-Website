@@ -37,6 +37,12 @@ const theme = createTheme({
         color:arcBlue,
         lineHeight:1.5,
       },
+      h3:{
+        fontFamily:"Pacifico",
+        fontSize:"2.5rem",
+        color:arcBlue,
+
+      },
       h4:{
         fontFamily:"Raleway",
         fontSize:"1.75rem",
@@ -47,6 +53,11 @@ const theme = createTheme({
         fontSize:"1.5rem",
         fontWeight:300,
         color:arcGrey
+      },
+      subtitle2:{
+        color:"white",
+        fontSize:"1.25rem",
+        fontWeight:300,
       },
       learnButton:{
         borderColor: arcBlue,

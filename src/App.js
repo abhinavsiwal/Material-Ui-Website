@@ -4,7 +4,10 @@ import Header from "./components/UI/Header";
 import theme from './components/UI/Theme'
 import {ThemeProvider} from '@material-ui/styles';
 import Footer from "./components/UI/Footer";
+
 import LandingPage from './components/Home/LandingPage';
+import Services from "./components/Services/Services";
+import CustomSoftware from "./components/Services/CustomSoftware";
 
 
 function App() {
@@ -18,10 +21,10 @@ function App() {
           <div><LandingPage setValue={setValue} setSelectedIndex={setSelectedIndex}/></div>
         </Route>
         <Route path="/services"> 
-          <div>Services</div>
+          <Services setValue={setValue} setSelectedIndex={setSelectedIndex}/>
         </Route>
         <Route path="/custom-software"> 
-          <div>Custom Software</div>
+          <CustomSoftware setValue={setValue} setSelectedIndex={setSelectedIndex} />
         </Route>
         <Route path="/mobile-apps"> 
           <div>Mobile Apps</div>

@@ -9,6 +9,7 @@ const theme = createTheme({
     common: {
       blue: `${arcBlue}`,
       orange: `${arcOrange}`,
+      grey: `${arcGrey}`,
     },
     primary: {
       main: `${arcBlue}`,
@@ -57,6 +58,11 @@ const theme = createTheme({
       subtitle2:{
         color:"white",
         fontSize:"1.25rem",
+        fontWeight:300,
+      },
+      body1:{
+        fontSize:"1.25rem",
+        color:arcGrey,
         fontWeight:300,
       },
       learnButton:{

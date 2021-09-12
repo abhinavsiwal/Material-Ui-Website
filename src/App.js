@@ -8,6 +8,8 @@ import Footer from "./components/UI/Footer";
 import LandingPage from './components/Home/LandingPage';
 import Services from "./components/Services/Services";
 import CustomSoftware from "./components/Services/CustomSoftware";
+import MobileApps from "./components/Services/MobileApps";
+import Websites from './components/Services/Websites';
 
 
 function App() {
@@ -27,10 +29,10 @@ function App() {
           <CustomSoftware setValue={setValue} setSelectedIndex={setSelectedIndex} />
         </Route>
         <Route path="/mobile-apps"> 
-          <div>Mobile Apps</div>
+          <MobileApps setValue={setValue} setSelectedIndex={setSelectedIndex}/>
         </Route>
         <Route path="/websites"> 
-          <div>Website</div>
+          <Websites setValue={setValue} setSelectedIndex={setSelectedIndex} />
         </Route>
         <Route path="/revolution"> 
           <div>Revolution</div>

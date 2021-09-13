@@ -10,6 +10,7 @@ import Services from "./components/Services/Services";
 import CustomSoftware from "./components/Services/CustomSoftware";
 import MobileApps from "./components/Services/MobileApps";
 import Websites from './components/Services/Websites';
+import Revolution from './components/Revolution/Revolution'
 
 
 function App() {
@@ -35,7 +36,7 @@ function App() {
           <Websites setValue={setValue} setSelectedIndex={setSelectedIndex} />
         </Route>
         <Route path="/revolution"> 
-          <div>Revolution</div>
+          <Revolution />
         </Route>
         <Route path="/about"> 
           <div>About</div>

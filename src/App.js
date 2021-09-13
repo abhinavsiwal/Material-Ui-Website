@@ -10,7 +10,8 @@ import Services from "./components/Services/Services";
 import CustomSoftware from "./components/Services/CustomSoftware";
 import MobileApps from "./components/Services/MobileApps";
 import Websites from './components/Services/Websites';
-import Revolution from './components/Revolution/Revolution'
+import Revolution from './components/Revolution/Revolution';
+import About from "./components/About Us/About";
 
 
 function App() {
@@ -39,7 +40,7 @@ function App() {
           <Revolution />
         </Route>
         <Route path="/about"> 
-          <div>About</div>
+         <About />
         </Route>
         <Route path="/contact"> 
           <div>Contact</div>

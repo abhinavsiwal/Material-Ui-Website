@@ -1,0 +1,59 @@
+[debug] [2021-09-20T12:04:15.769Z] ----------------------------------------------------------------------
+[debug] [2021-09-20T12:04:15.773Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Abhinav Siwal\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js functions:shell
+[debug] [2021-09-20T12:04:15.774Z] CLI Version:   9.18.0
+[debug] [2021-09-20T12:04:15.774Z] Platform:      win32
+[debug] [2021-09-20T12:04:15.774Z] Node Version:  v14.17.5
+[debug] [2021-09-20T12:04:15.775Z] Time:          Mon Sep 20 2021 17:34:15 GMT+0530 (India Standard Time)
+[debug] [2021-09-20T12:04:15.776Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-09-20T12:04:16.007Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-09-20T12:04:16.007Z] > authorizing via signed-in user (abhinavsiwal@gmail.com)
+[debug] [2021-09-20T12:04:16.008Z] [iam] checking project arc-development-63711 for permissions ["firebase.projects.get"]
+[debug] [2021-09-20T12:04:16.012Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/arc-development-63711:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2021-09-20T12:04:17.760Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 20 Sep 2021 12:04:18 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1364","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-09-20T12:04:18.816Z] [functions] Using node@14 from host.
+[debug] [2021-09-20T12:04:18.819Z] defaultcredentials: writing to file C:\Users\Abhinav Siwal\AppData\Roaming\firebase\abhinavsiwal_gmail_com_application_default_credentials.json
+[debug] [2021-09-20T12:04:18.821Z] DEBUG: Setting GAC to C:\Users\Abhinav Siwal\AppData\Roaming\firebase\abhinavsiwal_gmail_com_application_default_credentials.json
+[debug] [2021-09-20T12:04:18.823Z] > refreshing access token with scopes: []
+[debug] [2021-09-20T12:04:18.823Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-09-20T12:04:19.187Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Mon, 20 Sep 2021 12:04:19 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-09-20T12:04:19.263Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/arc-development-63711/adminSdkConfig [none]
+[debug] [2021-09-20T12:04:20.325Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/arc-development-63711/adminSdkConfig 200
+[debug] [2021-09-20T12:04:20.326Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/arc-development-63711/adminSdkConfig {"projectId":"arc-development-63711","storageBucket":"arc-development-63711.appspot.com"}
+[debug] [2021-09-20T12:04:20.403Z] [functions] Watching "D:\Material UI\Basics\functions" for Cloud Functions...
+[debug] [2021-09-20T12:04:20.421Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2021-09-20T12:04:20.421Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2021-09-20T12:04:20.422Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2021-09-20T12:04:20.422Z] DEBUG: [worker-~diagnostic~-b723f087-0987-42bf-b1b3-33c94b8e76b2]: Assigning socketPath: \\?\pipe\D:\Material UI\Basics\functions\5160
+[debug] [2021-09-20T12:04:20.423Z] DEBUG: [worker-~diagnostic~-b723f087-0987-42bf-b1b3-33c94b8e76b2]: BUSY
+[debug] [2021-09-20T12:04:21.810Z] DEBUG: [runtime-status] [5160] Functions runtime initialized. {"cwd":"D:\\Material UI\\Basics\\functions","node_version":"14.17.5"}
+[debug] [2021-09-20T12:04:21.845Z] DEBUG: [runtime-status] [5160] Disabled runtime features: undefined
+[debug] [2021-09-20T12:04:21.868Z] DEBUG: [runtime-status] [5160] Resolved module firebase-admin {"declared":true,"installed":true,"version":"9.11.1","resolution":"D:\\Material UI\\Basics\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2021-09-20T12:04:21.876Z] DEBUG: [runtime-status] [5160] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.15.6","resolution":"D:\\Material UI\\Basics\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2021-09-20T12:04:21.890Z] DEBUG: [runtime-status] [5160] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.15.6","resolution":"D:\\Material UI\\Basics\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2021-09-20T12:04:21.908Z] DEBUG: [runtime-status] [5160] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}]
+[debug] [2021-09-20T12:04:21.917Z] DEBUG: [runtime-status] [5160] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.15.6","resolution":"D:\\Material UI\\Basics\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2021-09-20T12:04:22.051Z] DEBUG: [runtime-status] [5160] Checked functions.config() {"config":{}}
+[debug] [2021-09-20T12:04:22.054Z] DEBUG: [runtime-status] [5160] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.15.6","resolution":"D:\\Material UI\\Basics\\functions\\node_modules\\firebase-functions\\lib\\index.js"}}
+[debug] [2021-09-20T12:04:22.059Z] DEBUG: [runtime-status] [5160] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.15.6","resolution":"D:\\Material UI\\Basics\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2021-09-20T12:04:22.073Z] DEBUG: [runtime-status] [5160] Resolved module firebase-admin {"declared":true,"installed":true,"version":"9.11.1","resolution":"D:\\Material UI\\Basics\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2021-09-20T12:04:22.077Z] DEBUG: [runtime-status] [5160] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.15.6","resolution":"D:\\Material UI\\Basics\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2021-09-20T12:04:22.078Z] DEBUG: [runtime-status] [5160] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"9.11.1","resolution":"D:\\Material UI\\Basics\\functions\\node_modules\\firebase-admin\\lib\\index.js"}}
+[debug] [2021-09-20T12:04:22.208Z] DEBUG: [runtime-status] [5160] initializeApp(DEFAULT) {"storageBucket":"arc-development-63711.appspot.com","projectId":"arc-development-63711"}
+[warn] !  It looks like you're trying to access functions.config().user but there is no value there. You can learn more about setting up config here: https://firebase.google.com/docs/functions/local-emulator {"metadata":{"emulator":{"name":"functions"},"message":"It looks like you're trying to access functions.config().user but there is no value there. You can learn more about setting up config here: https://firebase.google.com/docs/functions/local-emulator"}}
+[warn] !  TypeError: Cannot read property 'email' of undefined
+    at Object.<anonymous> (D:\Material UI\Basics\functions\index.js:11:28)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at initializeRuntime (C:\Users\Abhinav Siwal\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:715:29)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async handleMessage (C:\Users\Abhinav Siwal\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:759:20) {"metadata":{"emulator":{"name":"functions"},"message":"TypeError: Cannot read property 'email' of undefined\n    at Object.<anonymous> (D:\\Material UI\\Basics\\functions\\index.js:11:28)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Module.require (internal/modules/cjs/loader.js:961:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at initializeRuntime (C:\\Users\\Abhinav Siwal\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:715:29)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async handleMessage (C:\\Users\\Abhinav Siwal\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:759:20)"}}
+[warn] !  We were unable to load your functions code. (see above) {"metadata":{"emulator":{"name":"functions"}}}
+[debug] [2021-09-20T12:04:22.263Z] DEBUG: [worker-~diagnostic~-b723f087-0987-42bf-b1b3-33c94b8e76b2]: exited
+[debug] [2021-09-20T12:04:22.264Z] DEBUG: [worker-~diagnostic~-b723f087-0987-42bf-b1b3-33c94b8e76b2]: FINISHED

@@ -12,6 +12,7 @@ import MobileApps from "./components/Services/MobileApps";
 import Websites from './components/Services/Websites';
 import Revolution from './components/Revolution/Revolution';
 import About from "./components/About Us/About";
+import Contact from "./components/Contact Us/Contact";
 
 
 function App() {
@@ -43,7 +44,7 @@ function App() {
          <About />
         </Route>
         <Route path="/contact"> 
-          <div>Contact</div>
+         <Contact />
         </Route>
         <Route path="/estimate"> 
           <div>Estimate</div>

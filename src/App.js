@@ -13,6 +13,7 @@ import Websites from './components/Services/Websites';
 import Revolution from './components/Revolution/Revolution';
 import About from "./components/About Us/About";
 import Contact from "./components/Contact Us/Contact";
+import Estimate from "./components/Estimate/Estimate";
 
 
 function App() {
@@ -47,7 +48,7 @@ function App() {
          <Contact />
         </Route>
         <Route path="/estimate"> 
-          <div>Estimate</div>
+        <Estimate />
         </Route>
       </Switch>
       <Footer setValue={setValue} setSelectedIndex={setSelectedIndex}  />

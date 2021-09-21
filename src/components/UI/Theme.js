@@ -45,10 +45,14 @@ const theme = createTheme({
 
       },
       h4:{
-        fontFamily:"Raleway",
         fontSize:"1.75rem",
-        color:arcBlue,
         fontWeight:700,
+      },
+      h6:{
+        fontWeight:500,
+        fontFamily:"Raleway",
+        color:arcBlue,
+        lineHeight:1,
       },
       subtitle1:{
         fontSize:"1.5rem",
